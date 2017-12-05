@@ -1,0 +1,118 @@
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }}
+
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }}
+
+@media (min-width:1200px){
+    .container{width:1170px
+    }}
+
+@media (min-width: 768px) {
+    .main {
+        padding-top: 2em;
+    }
+    .main:after {
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-subtitle {
+        margin: 1em 0 1.75em;
+        font-size: 1.1em
+    }
+}
+
+@media (min-width: 384px) {
+    .logo-actions {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-actions {
+        font-size: 1.1em
+    }
+}
+
+@media (min-width: 384px) {
+    .logo-button:first-child {
+        margin: 0 1em 0 0
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .logo, .logo .Header-titles {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .logo .Header-titles {
+        -webkit-box-align: baseline;
+        -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline
+    }
+
+    .logo .logo-title {
+        font-size: 2em
+    }
+
+    .logo .logo-subtitle {
+        margin: 0 0 0 1em;
+        font-size:1.5em;
+        font-weight: 300;
+        color: gray
+    }
+
+    .logo .logo-actions {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        font-size: .9em
+    }
+}
+
+@media (min-width: 576px) {
+    .footer-credit {
+        display: inline-block;
+        margin: 0 .25em
+    }
+
+    .footer-creditSeparator {
+        display: inline-block;
+        padding: 0 .25em
+    }
+}
+

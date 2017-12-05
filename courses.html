@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/media1.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header role=banner>
+        <div class="row">
+            <div class="col-1">
+                <img src="images/logo.png" alt="logo"></div>
+            <div class="col-4">
+                <div class="logo-titles">
+                    <span class=logo-title><a href="login.html" title="Learn Easy - home page">Learn Easy</a></span>
+                    <span class=logo-subtitle>Courses</span>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="logo-actions">
+                    <p class="logo-info">user login</p>
+                    <a class="logo-off" href="login.html">logoff</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="row">
+                <div class="col-5">
+                    <form class="form-search" method="post" action="courses.html">
+                        <div class="form-group">
+                            <input type="text" name="search" id="search" placeholder="name fragment or date" autofocus/>
+                            <input type="submit" value="Find" name="submit"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-1">
+                    <form class="form-add" method="post" action="edit.html">
+                        <div class="form-group">
+                            <input type="submit" value="Add course" name="submit"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <article>
+                <div class="col-5">
+                    <h2>Video course 1</h2><span class="duration">1h 28min</span><span class="date">12/05/2017</span>
+                    <p>Smith</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor felis, mattis at sapien sed,
+                        aliquam sagittis ligula. Quisque rutrum, erat ut sagittis tempor, nunc lectus congue risus, a
+                        scelerisque sem turpis vitae ex. Phasellus sed mi bibendum, maximus est in, ultricies
+                        magna. </p></div>
+                <div class="col-1">
+                    <form class="form-edit" method="post" action="edit.html">
+                        <div class="form-group">
+                            <input type="submit" value="Edit course" name="submit"/>
+                        </div>
+                    </form>
+                    <form class="form-delete" method="post" action="courses.html">
+                        <div class="modal-container">
+                            <input type="submit" value="Delete" name="submit"/>
+                            <div class="modal-content">
+                                <label class="modal-close" for="cancel">x</label>
+                                <h4>Delete</h4>
+                                <div class="modal-message">
+                                    <p>Are you sure you want to delete this course?</p>
+                                    <p><strong>Video course 1</strong></p>
+                                </div>
+                                <input type="submit" value="Yes" name="submit"/>
+                                <input type="submit" value="Cancel" id="cancel" name="cancel"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+        <div class="row">
+            <article>
+                <div class="col-5">
+                    <h2>Video course 2</h2><span class="duration">15min</span><span class="date">12/02/2017</span>
+                    <p>Johnson</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor felis, mattis at sapien sed,
+                        aliquam sagittis ligula. Quisque rutrum, erat ut sagittis tempor, nunc lectus congue risus, a
+                        scelerisque sem turpis vitae ex. Phasellus sed mi bibendum, maximus est in, ultricies
+                        magna. </p></div>
+                <div class="col-1">
+                    <form class="form-edit" method="post" action="edit.html">
+                        <div class="form-group">
+                            <input type="submit" value="Edit course" name="submit"/>
+                        </div>
+                    </form>
+                    <form class="form-delete" method="post" action="courses.html">
+                        <div class="modal-container">
+                            <input type="submit" value="Delete" name="submit"/>
+                            <div class="modal-content">
+                                <label class="modal-close" for="cancel1">x</label>
+                                <h4>Delete</h4>
+                                <div class="modal-message">
+                                    <p>Are you sure you want to delete this course?</p>
+                                    <p><strong>Video course 2</strong></p>
+                                </div>
+                                <input type="submit" value="Yes" name="submit"/>
+                                <input type="submit" value="Cancel" id="cancel1" name="cancel"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+        <div class="row">
+            <article>
+                <div class="col-5">
+                    <h2>Video course 3</h2><span class="duration">2h 15min</span><span class="date">12/01/2017</span>
+                    <p>Miller, Brown</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor felis, mattis at sapien sed,
+                        aliquam sagittis ligula. Quisque rutrum, erat ut sagittis tempor, nunc lectus congue risus, a
+                        scelerisque sem turpis vitae ex. Phasellus sed mi bibendum, maximus est in, ultricies
+                        magna. </p></div>
+                <div class="col-1">
+                    <form class="form-edit" method="post" action="edit.html">
+                        <div class="form-group">
+                            <input type="submit" value="Edit course" name="submit"/>
+                        </div>
+                    </form>
+                    <form class="form-delete" method="post" action="courses.html">
+                        <div class="modal-container">
+                            <input type="submit" value="Delete" name="submit"/>
+                            <div class="modal-content">
+                                <label class="modal-close" for="cancel2" >x</label>
+                                <h4>Delete</h4>
+                                <div class="modal-message">
+                                    <p>Are you sure you want to delete this course?</p>
+                                    <p><strong>Video course 3</strong></p>
+                                </div>
+                                <input type="submit" value="Yes" name="submit"/>
+                                <input type="submit" value="Cancel" id="cancel2" name="cancel"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+
+    </main>
+</div>
+<footer>
+    <div class="copyright">Copyright &copy; 2017</div>
+</footer>
+</body>
+</html>
